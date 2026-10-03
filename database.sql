@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS money_spawner (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    player_id INT NOT NULL,
+    amount INT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
